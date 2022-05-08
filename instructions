@@ -21,3 +21,5 @@ Ad-Hoc Commands
 ansible all -a "df -h" -u root
 ansible all -a "apt update -y" -u root
 ansible all -a "apt upgrade -y" -u root
+ansible all -a "apt dist-upgrade -y" -u root
+ansible all -a "apt autoremove -y" -u root
