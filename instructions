@@ -19,15 +19,4 @@ ansible all -m ping -u root
 
 Ad-Hoc Commands
 ansible all -a "df -h" -u root
-
-
-
-
-
-
-
-
-
-
-
-
+ansible all -a "apt update" -u root
