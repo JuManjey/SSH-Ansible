@@ -20,3 +20,4 @@ ansible all -a "apt update -y" -u root
 ansible all -a "apt upgrade -y" -u root
 ansible all -a "apt dist-upgrade -y" -u root
 ansible all -a "apt autoremove -y" -u root
+ansible server1:server2 -m ping -u root
