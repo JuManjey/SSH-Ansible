@@ -7,8 +7,7 @@ sudo apt install ansible
 sudo nano /etc/ansible/hosts
 
 [servers]
-server1 ansible_host=135.181.133.133
-
+server1 ansible_host=0.0.0.0
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 
